@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css';
-import { heroImage } from '../../images/images';
+import heroImage from '../../images/hero.jpg';
 export default function Hero() {
   return (
    <div className='hero'>

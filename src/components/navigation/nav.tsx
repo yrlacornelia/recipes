@@ -20,7 +20,7 @@ export default function Nav() {
   }, []);
   return (
     <nav className={scrolling ? 'navbar scrolled' : 'navbar'}>
-      <div className="container">
+      <div className="container left">
         <a href="#">Navlink </a>
         <a href="#">Navlink </a>
         <a href="#">Navlink </a>

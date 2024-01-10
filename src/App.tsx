@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import Nav from './components/navigation/nav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Profile from './pages/profile/profile';
+import Footer from './components/footer/footer';
 
 function App() {
   return (   
@@ -15,7 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
-    </Router></>
+    </Router>
+    <Footer />
+    </>
   
   );
 }

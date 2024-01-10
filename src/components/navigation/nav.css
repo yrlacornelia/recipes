@@ -2,11 +2,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   position: fixed;
+  padding: 5px 40px;
   width: 100%; /* Set the width to 100% to span the entire viewport */
   top: 0; /* Fix it to the top of the viewport */
   z-index: 999; /* Optionally set a z-index to control stacking */
   transition: background-color 0.3s ease;
 }
+
 .navbar.scrolled, .navbar:hover {
   background-color: #f9f9f9; /* Change to the desired background color */
 }
@@ -18,7 +20,9 @@
   padding-top: 0;
   /* Other styles */
 }
-
+.left a {
+  margin: 15px;
+}
 .center {
   display: flex;
   justify-content: center;
