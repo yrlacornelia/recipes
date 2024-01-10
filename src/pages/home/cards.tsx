@@ -7,32 +7,33 @@ export default function Cards() {
 <div className='box-container'>
   <div className='box'>
     <img src={heroImage} />
+     <div className='star-container'>
+      <Star />
+      <Star />
+      <Star />
+      <Star />
+    </div>
     <h2>Salmon</h2>
+   
+  </div>
+  <div className='box'>
+    <img src={heroImage} />
     <div className='star-container'>
       <Star />
       <Star />
       <Star />
-      <Star />
     </div>
-  </div>
-  <div className='box'>
-    <img src={heroImage} />
     <h2>Pokebowl</h2>
-    <div className='star-container'>
-      <Star />
-      <Star />
-      <Star />
-    </div>
   </div>
   <div className='box'>
     <img src={heroImage} />
-    <h2>Pesto pasta</h2>
     <div className='star-container'>
       <Star />
       <Star />
       <Star />
       <Star />
     </div>
+    <h2>Pesto pasta</h2>
   </div>
 </div>
 
